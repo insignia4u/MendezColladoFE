@@ -2,7 +2,8 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.0.12"
-gem "slim"
-gem "rb-inotify", "0.9.0"
-
+gem "middleman",        "3.0.12"
+gem "slim",             "1.3.6"
+gem "rb-inotify",       "0.9.0"
+gem "zurb-foundation",  "4.0.5"
+gem "compass",          "0.12.2"
