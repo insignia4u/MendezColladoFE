@@ -106,7 +106,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass (= 0.12.2)
   middleman (= 3.0.12)
   rb-inotify (= 0.9.0)
   slim (= 1.3.6)

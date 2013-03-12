@@ -1,5 +1,5 @@
 // Required global settings and mixins for Foundation
-@import "foundation/foundation-global";
+// @import "foundation/foundation-global";
 
 // Settings file to override Foundation variables
 
@@ -50,7 +50,7 @@
 // Grid Variables
 //
 
-// $row-width: 62.5em;
+   $row-width: 60em;
 // $column-gutter: 1.875em;
 // $total-columns: 12;
 
@@ -953,7 +953,7 @@
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
+   $topbar-bg: #f2f2f2;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -968,12 +968,12 @@
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
-// $topbar-link-weight: bold;
-// $topbar-link-font-size: emCalc(13px);
+   $topbar-link-weight: bold;
+   $topbar-link-font-size: emCalc(17px);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
+   $topbar-dropdown-bg: #f2f2f2;
+   $topbar-dropdown-link-color: #2D673E;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
 // $topbar-dropdown-toggle-alpha: 0.5;
