@@ -33,5 +33,18 @@ $topbar-bg: #F2F2F2;
 }
 
 .row {
-  background-color: red;
+  // background-color: red;
 }
+
+.top-bar-section {
+  
+  #mail {
+    background: url("../images/mail.jpg") no-repeat center 12px;
+    width: 21px;
+    height: 30px;
+    display: block;
+    @include  hide-text;
+  }
+}
+
+

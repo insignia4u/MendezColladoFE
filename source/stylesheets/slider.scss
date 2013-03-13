@@ -1,0 +1,32 @@
+.slider {
+  background-color: #dbdbdb;
+  height: 422px;
+}
+
+.orbit-bullets {
+  text-align: center;
+
+  li {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background: transparent;
+    float: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #a5a5a5;
+
+
+    &.active {
+      background: transparent;
+      color: #5f6563;
+      border: 1px solid #a5a5a5;
+    }
+  }
+}
