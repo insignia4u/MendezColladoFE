@@ -1,50 +1,87 @@
-$topbar-bg: #F2F2F2;
+header {
 
-#logo {
-  background: url("../images/logo-mendez.jpg") no-repeat 66px 9px;
-  width: 160px;
-  height: 125px;
-  display: block;
-  @include  hide-text;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#phone {
-  background: $topbar-bg url("../images/phone.jpg") no-repeat 5px 5px;
-  float: right;
-  width: 140px;
-  height: 35px;
-  margin-top: 25px;
-
-  p {
-    text-align: right;
-    margin-left: 40px;
-    border-left: 1px solid gray;
-    font-style: bold;
-    font-size: 10px;
-    color: $topbar-dropdown-link-color;
-  }
-}
-
-.top-bar-phone {
-  width: 100%;
-  height: 80px;
-}
-
-.row {
-  // background-color: red;
-}
-
-.top-bar-section {
-  
-  #mail {
-    background: url("../images/mail.jpg") no-repeat center 12px;
-    width: 21px;
-    height: 30px;
+  #logo {
+    background: url("../images/logo-white.jpg") no-repeat;
+    width: 96px;
+    height: 125px;
     display: block;
     @include  hide-text;
+    margin-left: 106px;
+    margin-top: 8px;
+  }
+
+  #phone {
+    background: $topbar-dropdown-bg url("../images/phone.jpg") no-repeat 11px 7px;
+    float: right;
+    width: 152px;
+    height: 40px;
+    margin-top: 39px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    p {
+      line-height: 13px;
+      padding-left: 11px;
+      margin-left: 47px;
+      margin-top: 6px;
+      border-left: 1px solid gray;
+      font-style: bold;
+      font-size: 10px;
+      color: $topbar-dropdown-link-color;
+    }
+  }
+
+  .top-bar-phone {
+    width: 100%;
+    height: 92px;
+  }
+
+  .row {
+    // background-color: red;
+  }
+
+  .top-bar-section {
+    
+    #mail {
+
+      a {
+        background: url("../images/mail.jpg") no-repeat center 12px;
+        width: 21px;
+        height: 30px;
+        display: block;
+        @include  hide-text;
+      }
+    }
+  }
+
+  .top-bar-section {
+
+    li {
+
+        a:not(.button) {
+          line-height: 50px;
+          padding: 0 22px;
+          background-color: $topbar-dropdown-bg;
+        }
+
+        &#mail {
+
+          a {
+            padding: 0 14px;
+          }
+        }
+    }
+  }
+
+  .top-bar-section {
+
+    a {
+      line-height: 50px;
+    }
+  }
+
+  .top-bar {
+    // background-color: green;
+    height: 50px;
   }
 }
-
-
