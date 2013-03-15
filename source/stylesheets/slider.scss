@@ -1,32 +1,81 @@
 .slider {
-  background-color: #dbdbdb;
+  background-color: rgb(255,255,255);
+  @include filter-gradient(#ffffff, #d5d5d5, horizontal);
+  @include background-image(radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 29%,rgba(213,213,213,1) 99%));
+  border-top: 1px solid #222222;
   height: 422px;
-}
 
-.orbit-bullets {
-  text-align: center;
+  .orbit-container {
+    margin-top: 17px;
+    background: none;
+  }
 
   li {
-    font-size: 12px;
-    font-weight: bold;
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    line-height: 18px;
-    background: transparent;
-    float: none;
-    margin-left: 4px;
-    margin-right: 4px;
-    border: 1px solid transparent;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    color: #a5a5a5;
 
+    img {
+      margin-left: 15px;
+    }
 
-    &.active {
+    .description {
+      margin-top: 72px;
+      margin-left: 10px;
+
+      h2 {
+        color: #2D673E;
+        font-size: 31px;
+        font-style: italic;
+        margin: 0px;
+      }
+
+      h3 {
+        font-size: 14px;
+        color: #818181;
+      }
+
+      p {
+        margin-left: 3px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      a {
+        background: url("../images/view-more-yellow.jpg") no-repeat;
+        width: 74px;
+        height: 28px;
+        display: block;
+        @include  hide-text;
+      }
+    }
+    
+  }
+
+  .orbit-bullets {
+    text-align: center;
+
+    li {
+      font-size: 12px;
+      font-weight: bold;
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
       background: transparent;
-      color: #5f6563;
-      border: 1px solid #a5a5a5;
+      float: none;
+      margin-left: 4px;
+      margin-right: 4px;
+      border: 1px solid transparent;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      color: #a5a5a5;
+
+
+      &.active {
+        background: transparent;
+        color: #5f6563;
+        border: 1px solid #a5a5a5;
+      }
+
     }
   }
 }
+

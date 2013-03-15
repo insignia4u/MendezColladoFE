@@ -52,6 +52,14 @@ header {
         @include  hide-text;
       }
     }
+
+    ul {
+
+      .divider {
+        border-color: white;
+        height: 50px;
+      }
+    }
   }
 
   .top-bar-section {
@@ -60,7 +68,7 @@ header {
 
         a:not(.button) {
           line-height: 50px;
-          padding: 0 22px;
+          padding: 0 24px;
           background-color: $topbar-dropdown-bg;
         }
 

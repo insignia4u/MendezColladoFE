@@ -1,0 +1,166 @@
+#main {
+
+  article {
+
+    h2 {
+      margin-top: 31px;
+      margin-bottom: 0px;
+      font-size: 25px;
+      color: #2D673E;
+      font-weight: bold;
+    }
+
+    h3 {
+      margin-top: 0px;
+      font-size: 20px;
+      color: #2D673E;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      margin-bottom: 27px;
+    }
+
+    a {
+      background: url("../images/view-more-gray.jpg") no-repeat;
+      width: 74px;
+      height: 28px;
+      display: block;
+      @include  hide-text;
+    }
+
+    .divider {
+      width: 100%;
+      height: 92px;
+    }
+  }
+
+  #related {
+
+    h2 {
+      margin-left: 15px;
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #222222;
+      font-size: 18px;
+      color: #2D673E;
+    }
+
+    article {
+      padding-top: 12px;
+      margin-top: 27px;
+      border-top: 1px solid #222222;
+
+
+      h3 {
+        font-size: 16px;
+      }
+
+      img {
+        margin-right: 10px;
+        float: left;
+        @include box-shadow(2px 2px #d0d0d0);
+      }
+
+      .description {
+        p {
+          margin-bottom: 5px;
+          margin-bottom: 5px;
+          line-height: 18px;
+        }
+
+        a {
+          font-size: 14px;
+          background: none;
+          display: inline;
+          color: #a5a5a5;
+        }
+      }
+    }
+
+    .first{
+
+      article {
+        border-top: none;
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+#services-box {
+  position: relative;
+  top: -36px;
+  padding: 10px 10px 10px 32px;
+  background-color: white;
+  @include box-shadow(5px 5px 4px #d0d0d0);
+
+  h2 {
+    color: #2D673E;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    @include text-shadow(2px 2px #dbdbdb);
+  }
+
+  .side-nav {
+    margin: 0px;
+    padding: 0px;
+
+    li {
+      background: url(../images/aside-sep.gif) no-repeat;
+      padding: 15px 0 10px 0;
+      margin: 0px;
+
+      &#first {
+        background: none;
+      }
+
+      a {
+        color: black;
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+}
+
+#info-panel {
+
+  .panel {
+    min-height: 300px;
+    padding-left: 34px;
+    @include box-shadow(5px 5px 4px #d0d0d0);
+    background: #ecc95f url(../images/pattern-box-yellow-x.gif) repeat-x;
+
+    h2 {
+      margin-top: 50px;
+      margin-bottom: 70px;
+      font-size: 23px;
+      color: white;
+      @include text-shadow(2px 2px gray);
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    a {
+      background: url(../images/boton-gray.png) no-repeat 0px 0px;
+      display: block;
+      width: 72px;
+      height: 27px;
+      position: relative;
+      top: 29px;
+      font-size: 10px;
+      // margin-left: 16px;
+      color: #4b4b4b;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 9px;
+    }
+  }
+}
