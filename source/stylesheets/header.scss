@@ -45,7 +45,6 @@ header {
       a {
         background: url("../images/mail.jpg") no-repeat center 12px;
         width: 21px;
-        height: 30px;
         display: block;
         @include  hide-text;
       }
@@ -54,15 +53,14 @@ header {
     ul {
       border-radius: 5px 5px 0px 0px;
       overflow: hidden;
+      background: none;
 
       .divider {
         border-color: white;
         height: 50px;
+        display: none;
       }
     }
-  }
-
-  .top-bar-section {
 
     li {
 
@@ -94,7 +92,7 @@ header {
   }
 }
 
-@media #{$small} {
+@media #{$small} {  // Desktop
 
   header {
 
@@ -108,21 +106,26 @@ header {
     }
 
     .top-bar-section {
-      li{
-        a:not(.button){
-          background-color: $topbar-dropdown-bg;
-        }
 
-        &#mail {
+      ul {
+        li{
+          a:not(.button){
+            background-color: #f2f2f2;
+          }
 
-          a {
+          &#mail {
+
+            a {
+              background-color: #f2f2f2;
+            }
           }
         }
-      }
 
-      .divider{
-        border-style: none solid;
-        border-width: medium 1px;
+        .divider{
+          border-style: none solid;
+          border-width: medium 1px;
+          display: block;
+        }
       }
     }
   }

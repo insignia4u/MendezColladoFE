@@ -39,10 +39,15 @@
         font-size: 14px;
         line-height: 18px;
         color: #333333;
+        display: none;
       }
 
       a {
         padding-top: 7px;
+      }
+
+      .link_button.btn_orange {
+          display: none;
       }
     }
     
@@ -80,3 +85,21 @@
   }
 }
 
+@media #{$small} {  // Desktop
+
+  .slider {
+    li {
+      .description {
+        p {
+          display: block;
+        }
+
+        .link_button.btn_orange {
+          display: block;
+        }
+
+      }
+    }
+  }
+
+}
