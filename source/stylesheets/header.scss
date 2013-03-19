@@ -6,12 +6,12 @@ header {
     height: 125px;
     display: block;
     @include  hide-text;
-    margin-left: 106px;
-    margin-top: 8px;
+    margin: 8px 5px 0px 5px;
+    float: right;
   }
 
   #phone {
-    background: $topbar-dropdown-bg url("../images/phone.jpg") no-repeat 11px 7px;
+    background: #e2e2e2 url("../images/phone.jpg") no-repeat 11px 7px;
     float: right;
     width: 152px;
     height: 40px;
@@ -24,10 +24,10 @@ header {
       padding-left: 11px;
       margin-left: 47px;
       margin-top: 6px;
-      border-left: 1px solid gray;
-      font-style: bold;
+      border-left: 1px solid #d0d0d0;
+      font-weight: bold;
       font-size: 10px;
-      color: $topbar-dropdown-link-color;
+      color: #006837;
     }
   }
 
@@ -54,6 +54,8 @@ header {
     }
 
     ul {
+      border-radius: 5px 5px 0px 0px;
+      overflow: hidden;
 
       .divider {
         border-color: white;
@@ -68,7 +70,7 @@ header {
 
         a:not(.button) {
           line-height: 50px;
-          padding: 0 24px;
+          padding: 0 22px;
           background-color: $topbar-dropdown-bg;
         }
 
@@ -78,13 +80,12 @@ header {
             padding: 0 14px;
           }
         }
-    }
-  }
 
-  .top-bar-section {
-
-    a {
-      line-height: 50px;
+      a {
+        line-height: 50px;
+        font-weight: normal;
+        font-size: 18px;
+      }
     }
   }
 

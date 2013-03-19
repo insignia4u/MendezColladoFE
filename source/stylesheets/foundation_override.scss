@@ -1,5 +1,5 @@
 // Required global settings and mixins for Foundation
-// @import "foundation/foundation-global";
+@import "foundation/foundation-global";
 
 // Settings file to override Foundation variables
 
@@ -968,7 +968,7 @@
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
-   $topbar-link-weight: bold;
+//   $topbar-link-weight: bold;
    $topbar-link-font-size: emCalc(17px);
 
 // Style the top bar dropdown elements
@@ -992,4 +992,23 @@
 // $topbar-transition-speed: 300ms;
 // $topbar-breakpoint: emCalc(940px); // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width "#{$topbar-breakpoint}")";
+
+
+//Media Queries
+
+
+/* Available Variables */
+// $small-screen: emCalc(768px);
+// $tablet-screen: emCalc(900px);
+
+
+// $screen: "only screen";
+// $small: "only screen and (max-width:"#{$small-screen}")";
+// $tablet: "only screen and (max-width:"#{$small-screen}") and (min-width:"#{$tablet-screen}")";
+
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+// @media #{$small} { }
+
+/* Used to alter styles for screens at least 1280px wide. */
+
 

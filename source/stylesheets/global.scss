@@ -1,0 +1,25 @@
+.link_button {
+  background: url(../images/button-gray.png) no-repeat 0px 0px;
+  display: block;
+  width: 72px;
+  height: 27px;
+  font-size: 10px;
+  color: #4b4b4b;
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: center;
+}
+
+.link_button:hover {
+  color: #4b4b4b;
+  }
+
+.btn_orange {
+  background: url(../images/button-orange.png) no-repeat 0px 0px;
+  color: white;
+  font-family: "Arial";
+}
+
+.btn_orange:hover {
+  color: white;
+}
