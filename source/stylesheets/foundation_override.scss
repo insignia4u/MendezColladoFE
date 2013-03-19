@@ -1012,3 +1012,6 @@
 /* Used to alter styles for screens at least 1280px wide. */
 
 
+$tablet-screen: emCalc(959px);
+
+$tablet: "only screen and (min-width:"#{$small-screen}") and (max-width:"#{$tablet-screen}")";

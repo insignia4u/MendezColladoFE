@@ -1,12 +1,33 @@
-@media only screen and (min-width: 768px) { 
-  #main {
+@media #{$tablet}{
+  header{
 
-    article {
-      margin-bottom: 90px;
+    .top-bar-section {
+      ul li {
+        float: left;
+      }
 
-      h2 {
-        color: red;
+      .divider{
+        clear: none;
+        width: auto;
+      }
+
+      li a:not(.button){
+        padding: 0 12%;
       }
     }
   }
+
+  footer{
+    .copyright{
+      left: -15%;
+    }
+  }
+
+  #related{
+
+    .row .column, .row .columns {
+      width: 100%;
+    }
+  }
+
 }
