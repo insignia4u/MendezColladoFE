@@ -1,15 +1,16 @@
 #main {
 
   article {
-    margin-bottom: 90px;
+    margin-bottom: 74px;
 
     h2 {
       font-family: "myriadprobold", "arial";
-      margin-top: 31px;
+      margin-top: 35px;
       margin-bottom: 0px;
       font-size: 26px;
       color: #2D673E;
       font-weight: normal;
+      line-height: 33px;
       @include text-shadow(1px 1px #dbdbdb);
     }
 
@@ -20,12 +21,13 @@
       font-weight: normal;
       color: #2D673E;
       @include text-shadow(2px 1px #dbdbdb);
+      margin-bottom: 5px;
     }
 
     p {
       font-size: 14px;
       line-height: 21px;
-      margin-bottom: 27px;
+      margin-bottom: 26px;
       color: #4d4d4d;
     }
 
@@ -43,7 +45,7 @@
 
     h2 {
       margin-bottom: 0px;
-      padding-bottom: 10px;
+      padding-bottom: 0px;
       border-bottom: 1px solid #222222;
       font-size: 20px;
       font-family: "myriadprosemibold", "arial";
@@ -54,7 +56,7 @@
 
     article {
       padding-top: 12px;
-      margin-top: 27px;
+      margin-top: 36px;
       margin-bottom: 0px;
       border-top: 1px solid #222222;
 
@@ -63,6 +65,7 @@
         font-size: 16px;
         font-family: "myriadprosemibold", "arial";
         color: #2d673c;
+        margin-top: 4px;
       }
 
       img {
@@ -73,7 +76,7 @@
 
       .description {
         p {
-          margin-bottom: 5px;
+          margin-top: 9px;
           margin-bottom: 5px;
           line-height: 18px;
           font-family: "myriadproregular", "arial";
@@ -94,7 +97,11 @@
 
       article {
         border-top: none;
-        margin-top: 0px;
+        margin-top: 4px;
+
+        h3 {
+          margin-top: 0px;
+        }
       }
     }
   }
@@ -103,7 +110,7 @@
 #services-box {
   position: relative;
   top: -36px;
-  padding: 10px 10px 10px 32px;
+  padding: 10px 10px 10px 21px;
   background-color: white;
   @include box-shadow(5px 5px 4px #d0d0d0);
 
@@ -112,8 +119,8 @@
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
-    margin-top: 1px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 4px;
     @include text-shadow(2px 1px #dbdbdb);
   }
 
@@ -142,16 +149,20 @@
 }
 
 #info-panel {
+  position: relative;
+  top: -14px;
 
   .panel {
-    min-height: 300px;
+    padding: 10px 1px;
+    min-height: 318px;
     @include box-shadow(5px 5px 4px #d0d0d0);
     background: #ecc95f url(../images/pattern-box-yellow-x.gif) repeat-x;
+    margin-bottom: 11px;
 
     h2 {
       margin-left: 20px;
       margin-top: 5px;
-      margin-bottom: 15px;
+      margin-bottom: 4px;
       font-family: "Arial";
       font-size: 25px;
       font-weight: bold;
@@ -164,6 +175,7 @@
     p {
       font-size: 12px;
       margin-left: 20px;
+      margin-bottom: 10px;
     }
 
     a {

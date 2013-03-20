@@ -3,75 +3,77 @@
   @include filter-gradient(#ffffff, #d5d5d5, horizontal);
   @include background-image(radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 29%,rgba(213,213,213,1) 99%));
   border-top: 1px solid #222222;
-  height: 422px;
+  height: 302px;
 
   .orbit-container {
     margin-top: 17px;
     background: none;
-  }
+  
 
-  li {
+    li {
 
-    img {
-      margin-left: 15px;
-    }
-
-    .description {
-      margin-top: 72px;
-      margin-left: 10px;
-
-      h2 {
-        color: #2D673E;
-        font-size: 33px;
-        font-family: "myriadproboldit";
-        margin: 0px;
-        font-weight: normal;
-        line-height: 39px;
+      img {
+        margin-left: 2px;
+        margin-top: 0px;
       }
 
-      h3 {
-        font-size: 16px;
-        color: #808080;
-      }
+      .description {
+        margin-top: 5px;
+        margin-left: 12px;
 
-      p {
-        margin-left: 3px;
-        font-size: 14px;
-        line-height: 18px;
-        color: #333333;
-        display: none;
-      }
+        h2 {
+          color: #2D673E;
+          font-size: 33px;
+          font-family: "myriadproboldit";
+          margin: 0px;
+          font-weight: normal;
+          line-height: 39px;
+        }
 
-      a {
-        padding-top: 7px;
-      }
+        h3 {
+          font-size: 16px;
+        }
 
-      .link_button.btn_orange {
+        p {
+          margin-left: 3px;
+          font-size: 14px;
+          line-height: 18px;
+          color: #333333;
           display: none;
+        }
+
+        a {
+          padding-top: 7px;
+        }
+
+        .link_button.btn_orange {
+            display: none;
+        }
       }
+      
     }
-    
   }
 
   .orbit-bullets {
     text-align: center;
+    display: none;
 
     li {
       font-size: 12px;
       display: inline-block;
-      width: 27px;
-      height: 27px;
+      width: 28px;
+      height: 28px;
       line-height: 24px;
       background: transparent;
       float: none;
       margin-left: 3px;
-      margin-right: 3px;
+      margin-right: 11px;
       border: 2px solid transparent;
       @include border-radius(50%);
       border-radius: 50%;
       color: #a3a3a3;
       cursor: pointer;
-      margin-top: 16px;
+      margin-top: 4px;
 
 
       &.active {
@@ -83,23 +85,4 @@
 
     }
   }
-}
-
-@media #{$small} {  // Desktop
-
-  .slider {
-    li {
-      .description {
-        p {
-          display: block;
-        }
-
-        .link_button.btn_orange {
-          display: block;
-        }
-
-      }
-    }
-  }
-
 }
