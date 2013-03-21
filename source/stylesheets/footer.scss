@@ -3,12 +3,15 @@ footer {
   border-top: 5px solid #eabe55;
   min-height: 164px;
   margin-top: 0px;
+  padding: 15px 10px 45px 10px;
 
   .side-nav {
+    padding: 0 0;
+    border-bottom: 1px solid #6c7264;
+
     .first {
       margin-top: 2px;
       border-top: none;
-
     }
 
     li {
@@ -32,8 +35,6 @@ footer {
   }
 
   .copyright {
-    position: relative;
-    left: -72px;
     margin-left: 0px;
     font-size: 10px;
     color: white;
@@ -45,7 +46,7 @@ footer {
     }
 
     #logo {
-      margin-top: 15px;
+      margin-top: 27px;
       width: 57px;
       height: 73px;
     }

@@ -1,11 +1,12 @@
 #main {
+  margin: 0 10px;
 
   article {
-    margin-bottom: 74px;
+    margin-bottom: 28px;
 
     h2 {
       font-family: "myriadprobold", "arial";
-      margin-top: 35px;
+      margin-top: 15px;
       margin-bottom: 0px;
       font-size: 26px;
       color: #2D673E;
@@ -16,18 +17,19 @@
 
     h3 {
       margin-top: 0px;
-      font-size: 24px;
+      font-size: 20px;
       font-family: "myriadprolight";
       font-weight: normal;
       color: #2D673E;
       @include text-shadow(2px 1px #dbdbdb);
       margin-bottom: 5px;
+      line-height: 32px;
     }
 
     p {
       font-size: 14px;
-      line-height: 21px;
-      margin-bottom: 26px;
+      line-height: 20px;
+      margin-bottom: 14px;
       color: #4d4d4d;
     }
 
@@ -108,11 +110,11 @@
 }
 
 #services-box {
-  position: relative;
-  top: -36px;
-  padding: 10px 10px 10px 21px;
+  padding: 10px 10px 10px 37px;
   background-color: white;
-  @include box-shadow(5px 5px 4px #d0d0d0);
+  @include box-shadow(1px 1px 1px #f3f3f3);
+  margin: 25px auto 35px;
+  width: 270px;
 
   h2 {
     color: #2D673E;
@@ -154,10 +156,10 @@
 
   .panel {
     padding: 10px 1px;
-    min-height: 318px;
-    @include box-shadow(5px 5px 4px #d0d0d0);
+    @include min-height(318px);
+    @include box-shadow(2px 2px 2px #D0D0D0);
     background: #ecc95f url(../images/pattern-box-yellow-x.gif) repeat-x;
-    margin-bottom: 11px;
+    margin: 10px 10px 11px 10px;
 
     h2 {
       margin-left: 20px;

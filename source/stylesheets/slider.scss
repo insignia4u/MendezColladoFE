@@ -2,7 +2,6 @@
   background-color: rgb(255,255,255);
   @include filter-gradient(#ffffff, #d5d5d5, horizontal);
   @include background-image(radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 29%,rgba(213,213,213,1) 99%));
-  border-top: 1px solid #222222;
   height: 302px;
 
   .orbit-container {
@@ -12,9 +11,22 @@
 
     li {
 
-      img {
+      .slide-img {
+        border: none;
+        width: 259px;
+        height: 130px;
         margin-left: 2px;
         margin-top: 0px;
+
+        &#slide01 {
+          background: url("../images/slide01-phone.png");
+        }
+        &#slide02 {
+          background: url("../images/slide02-phone.png");
+        }
+        &#slide03 {
+          background: url("../images/slide03-phone.png");
+        }
       }
 
       .description {
