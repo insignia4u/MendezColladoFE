@@ -2,6 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
+gem "thin"
 gem "middleman",        "3.0.12"
 gem "slim",             "1.3.6"
 gem "zurb-foundation",  "4.0.5"
