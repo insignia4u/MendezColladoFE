@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 gem "middleman",        "3.0.0.beta.2"
 gem "slim",             "1.3.6"
 gem "zurb-foundation",  "4.0.5"
-# gem "rb-inotify",       "0.9.0"
+gem "rb-inotify",       "0.8.8"
 
 group :development do
   # gem "middleman-livereload", :github => "middleman/middleman-livereload"
