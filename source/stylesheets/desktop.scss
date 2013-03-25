@@ -12,8 +12,20 @@
     }
 
     #phone {
+      background: #e2e2e2 url("../images/phone.jpg") no-repeat 11px 7px;
+      width: 152px;
+      font-size: 16px;
       float: right;
       margin: 39px auto 0;
+
+      p {
+        margin-left: 45px;
+        padding-left: 6px;
+        font-size: 10px;
+        margin-top: 8px;
+        line-height: 13px;
+        margin-top: 6px;
+      }
     }
 
     .top-bar-section {

@@ -1,5 +1,5 @@
 @media #{$tablet}{
-  header{
+  header {
 
     .top-bar-section {
       ul li {
@@ -12,7 +12,7 @@
       }
 
       li a:not(.button){
-        padding: 0 12%;
+        padding: 0 12.5px;
       }
     }
   }

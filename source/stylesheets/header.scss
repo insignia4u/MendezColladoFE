@@ -11,22 +11,28 @@ header {
   }
 
   #phone {
-    background: #e2e2e2 url("../images/phone.jpg") no-repeat 11px 7px;
-    width: 152px;
+    background: #e2e2e2 url("../images/phone.jpg") no-repeat 75px 7px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
     height: 40px;
     margin: 29px auto 0;
     @include border-radius(5px);
     overflow: hidden;
 
     p {
-      line-height: 13px;
-      padding-left: 11px;
-      margin-left: 47px;
-      margin-top: 6px;
+      line-height: 17px;
+      padding-left: 10px;
+      margin-left: 110px;
+      margin-top: 4px;
       border-left: 1px solid #d0d0d0;
       font-weight: bold;
-      font-size: 10px;
+      font-size: 13px;
       color: #006837;
+
+        a {
+          color: #006837;
+        }
     }
   }
 
