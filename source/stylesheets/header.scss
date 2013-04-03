@@ -11,7 +11,10 @@ header {
   }
 
   #phone {
-    background: #e2e2e2 url("../images/phone.png") no-repeat 75px 7px;
+    // background: #e2e2e2 url("../images/phone.png") no-repeat 75px 7px;
+    text-align: center;
+
+    background-color: #e2e2e2;
     display: block;
     width: 100%;
     font-size: 18px;
@@ -20,10 +23,17 @@ header {
     @include border-radius(5px);
     overflow: hidden;
 
+    img {
+      margin-bottom: 3px;
+    }
+
     p {
+      display: inline-block;
+      margin-left: 8px;
+
       line-height: 17px;
       padding-left: 10px;
-      margin-left: 110px;
+      // margin-left: 110px;
       margin-top: 4px;
       border-left: 1px solid #d0d0d0;
       font-weight: bold;
