@@ -19,5 +19,9 @@
     font-weight: normal;
     color: #91e9b7;
     @include text-shadow(2px 2px #345800);
+
+    &.news-less {
+      margin-top: 30px;
+    }
   }
 }

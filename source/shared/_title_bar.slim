@@ -2,4 +2,7 @@
   .row
     .large-12.columns
       p = news
-      h2 = titulo
+      - if news == ""
+        h2.news-less = titulo
+      - else
+        h2 = titulo

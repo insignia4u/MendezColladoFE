@@ -149,6 +149,10 @@
     .panel {
       margin: 0px 0px 11px 0px;
       @include box-shadow(5px 5px 4px #d0d0d0);
+
+      p {
+      margin-left: 20px;
+      }
     }
   }
 
