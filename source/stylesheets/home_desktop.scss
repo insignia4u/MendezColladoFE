@@ -1,114 +1,114 @@
 @media #{$small} {
 
-  // Desktop Header
-  header {
-    margin-bottom: 0px;
+  // // Desktop Header
+  // header {
+  //   margin-bottom: 0px;
 
-    #logo {
-      float: right;
-      margin-right: 10px;
-      margin-top: 2px;
+  //   #logo {
+  //     float: right;
+  //     margin-right: 10px;
+  //     margin-top: 2px;
 
-    }
+  //   }
 
-    #phone {
-      // background: #e2e2e2 url("../images/phone.png") no-repeat 11px 7px;
-      text-align: left;
+  //   #phone {
+  //     // background: #e2e2e2 url("../images/phone.png") no-repeat 11px 7px;
+  //     text-align: left;
 
 
-      width: 152px;
-      font-size: 16px;
-      float: right;
-      margin: 39px auto 0;
+  //     width: 152px;
+  //     font-size: 16px;
+  //     float: right;
+  //     margin: 39px auto 0;
 
-      img {
-        margin-left: 12px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
+  //     img {
+  //       margin-left: 12px;
+  //       margin-top: 0px;
+  //       margin-bottom: 0px;
+  //     }
 
-      p {
-        margin-top: 6px;
-        padding-left: 6px;
-        font-size: 10px;
-        line-height: 13px;
-      }
-    }
+  //     p {
+  //       margin-top: 6px;
+  //       padding-left: 6px;
+  //       font-size: 10px;
+  //       line-height: 13px;
+  //     }
+  //   }
 
-    .top-bar-section {
+  //   .top-bar-section {
 
-      ul {
-        li{
-          a:not(.button){
-            line-height: 50px;
-            background-color: #f2f2f2;
-          }
+  //     ul {
+  //       li{
+  //         a:not(.button){
+  //           line-height: 50px;
+  //           background-color: #f2f2f2;
+  //         }
 
-          &#mail {
+  //         &#mail {
 
-            a {
-              background-color: #f2f2f2;
-            }
-          }
-        }
+  //           a {
+  //             background-color: #f2f2f2;
+  //           }
+  //         }
+  //       }
 
-        .divider{
-          border-style: none solid;
-          border-width: medium 1px;
-          display: block;
-        }
-      }
-    }
+  //       .divider{
+  //         border-style: none solid;
+  //         border-width: medium 1px;
+  //         display: block;
+  //       }
+  //     }
+  //   }
 
-    .top-bar-phone {
-      height: 92px;
-    }
-  }
+  //   .top-bar-phone {
+  //     height: 92px;
+  //   }
+  // }
 
   // Desktop Slider
-  .slider {
-      height: 422px;
-      border-top: 1px solid #222222;
+  // .slider {
+  //     height: 422px;
+  //     border-top: 1px solid #222222;
 
-    .orbit-container {
-      li {
+  //   .orbit-container {
+  //     li {
 
-        .slide-img {
-          width: 601px;
-          height: 302px;
-          margin-top: 18px;
+  //       .slide-img {
+  //         width: 601px;
+  //         height: 302px;
+  //         margin-top: 18px;
 
-          &#slide01 {
-            background: url("../images/slide01.png");
-          }
-          &#slide02 {
-            background: url("../images/slide02.png");
-          }
-          &#slide03 {
-            background: url("../images/slide03.png");
-          }
-        }
+  //         &#slide01 {
+  //           background: url("../images/slide01.png");
+  //         }
+  //         &#slide02 {
+  //           background: url("../images/slide02.png");
+  //         }
+  //         &#slide03 {
+  //           background: url("../images/slide03.png");
+  //         }
+  //       }
 
-        .description {
-          margin-top: 68px;
-          margin-left: 0px;
+  //       .description {
+  //         margin-top: 68px;
+  //         margin-left: 0px;
 
-          p {
-            display: block;
-          }
+  //         p {
+  //           display: block;
+  //         }
 
-          .link_button.btn_orange {
-            display: block;
-          }
+  //         .link_button.btn_orange {
+  //           display: block;
+  //         }
 
-        }
-      }
-    }
+  //       }
+  //     }
+  //   }
 
-    .orbit-bullets {
-      display: block;
-    }
-  }
+  //   .orbit-bullets {
+  //     display: block;
+  //   }
+  // }
 
   // Desktop Home Body
   #main {
@@ -158,43 +158,39 @@
 
 
   // Desktop Footer
-  footer {
-    padding: 0px;
+  // footer {
+  //   padding: 0px;
 
-  .side-nav {
-    padding: 0.875em 0;
-    border-bottom:none;
+  //   .side-nav {
+  //     padding: 0.875em 0;
+  //     border-bottom:none;
 
-    .first {
+  //     .first {
 
-    }
+  //     }
 
-    li {
+  //     li {
 
-    }
+  //     }
 
-    a {
+  //     a {
 
-    }
-  }
+  //     }
+  //   }
 
-  .hours {
+  //   .copyright {
+  //     position: relative;
+  //     left: -34px;
 
-  }
+  //     p {
+  //       line-height: 12px;
+  //     }
 
-  .copyright {
-    position: relative;
-    left: -34px;
-
-    p {
-      line-height: 12px;
-    }
-
-    #logo {
-      margin-top: 27px;
-    }
-  }
-}
+  //     #logo {
+  //       margin-top: 27px;
+  //     }
+  //   }
+  // }
 
 
 }

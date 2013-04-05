@@ -1,52 +1,52 @@
 @media #{$tablet}{
-  header {
+  // header {
 
-    .top-bar-section {
-      ul li {
-        float: left;
-      }
+  //   .top-bar-section {
+  //     ul li {
+  //       float: left;
+  //     }
 
-      .divider{
-        clear: none;
-        width: auto;
-      }
+  //     .divider{
+  //       clear: none;
+  //       width: auto;
+  //     }
 
-      li a:not(.button){
-        padding: 0 12.5px;
-      }
-    }
-  }
+  //     li a:not(.button){
+  //       padding: 0 12.5px;
+  //     }
+  //   }
+  // }
 
   // Desktop Slider
-  .slider {
+  // .slider {
 
-    .orbit-container {
-      li {
+  //   .orbit-container {
+  //     li {
 
-        .slide-img {
-          width: 450px;
-          height: 228px;
-          margin-top: 25px;
+  //       .slide-img {
+  //         width: 450px;
+  //         height: 228px;
+  //         margin-top: 25px;
 
-          &#slide01 {
-            background: url("../images/slide01-tablet.png");
-          }
-          &#slide02 {
-            background: url("../images/slide02-tablet.png");
-          }
-          &#slide03 {
-            background: url("../images/slide03-tablet.png");
-          }
-        }
-      }
-    }
-  }
+  //         &#slide01 {
+  //           background: url("../images/slide01-tablet.png");
+  //         }
+  //         &#slide02 {
+  //           background: url("../images/slide02-tablet.png");
+  //         }
+  //         &#slide03 {
+  //           background: url("../images/slide03-tablet.png");
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
-  footer{
-    .copyright{
-      left: -15%;
-    }
-  }
+  // footer{
+  //   .copyright{
+  //     left: -15%;
+  //   }
+  // }
 
   #related{
 
